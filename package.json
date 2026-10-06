@@ -1,0 +1,12 @@
+{
+  "name": "chatgpt-claude-bridge",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "latest"
+  }
+}
